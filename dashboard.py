@@ -120,7 +120,7 @@ if option1 == 'Developer Profile' and option2 == 'Learning to code':
     st.write("Like previous years, technical documentation and Stack Overflow are the top online resources people use when learning to code, with blogs rounding out the top three. Well-written documentation, an active community providing solutions, and regular posts are the trifecta of enabling people to teach themselves about a technology. Developers see value in a variety of other resources like how-to videos, written tutorials, books, forums—they piece together the resources and formats that work best for their learning style.")
 
     st.write("**Here are the top online resources for learning how to code:**")
-    st.image('Popularity_of_Online_Resources_for_Learning_to_Code.png', caption = 'Popularity of Online Resources for Learning to Code', use_column_width=True)
+    st.image('Visualization/Popularity_of_Online_Resources_for_Learning_to_Code.png', caption = 'Popularity of Online Resources for Learning to Code', use_column_width=True)
 
     # Conclusion
     st.write("Explore these resources to kickstart your coding journey!")
