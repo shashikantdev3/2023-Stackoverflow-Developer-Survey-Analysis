@@ -1,9 +1,5 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-import plotly.offline as pyo
-import plotly.graph_objects as go
 import warnings
 
 
