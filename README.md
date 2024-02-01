@@ -1,6 +1,6 @@
 # 2023 Stackoverflow Developer Survey Analysis
 
-![Survey Analysis](.png)
+![Survey Analysis](Visualization/survey.png)
 
 Welcome to the 2023 Stackoverflow Developer Survey Analysis repository! In this project, we explore the results of the Stackoverflow Developer Survey conducted in 2023. You'll find a collection of data visualizations, code, and insights into developer trends.
 
