@@ -366,7 +366,7 @@ if option1 == 'Technology' and option2 == 'Worked with vs. want to work with':
 
     st.markdown("**Visualizing the Relationship Between Current Skills and Aspirations in Programming, Scripting, and Markup Languages**")
 
-    html_file_path = 'chord_diagram.html' 
+    html_file_path = 'Visualization/chord_diagram.html' 
     embed_html(html_file_path)
 
 if option1 == 'AI' and option2 == 'Sentiment and usage':
