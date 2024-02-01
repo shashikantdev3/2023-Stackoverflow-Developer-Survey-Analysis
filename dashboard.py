@@ -72,7 +72,7 @@ if option1 == 'Developer Profile' and option2 == 'Developer roles':
     st.write("Additionally, for the first time this year, StckOverFlow included a question about developer advocates, with nearly 0.3% of respondents classifying themselves as this type of developer.")
    
     # Display the chart
-    st.image('Popular_Developer_Types.png', caption='The popular developer types based on the survey results.', use_column_width=True)
+    st.image('Visualization/Popular_Developer_Types.png', caption='The popular developer types based on the survey results.', use_column_width=True)
 
 
 if option1 == 'Developer Profile' and option2 == 'Education':
@@ -84,7 +84,7 @@ if option1 == 'Developer Profile' and option2 == 'Education':
 
     st.write("Most developers have attained a Bachelor's degree (41.72%) with a quarter attaining a Master's degree (23.35%).")
     # Display the chart
-    st.image('EdLevel.png', caption='Educational attainment of the survey respondents.', use_column_width=True)
+    st.image('Visualization/EdLevel.png', caption='Educational attainment of the survey respondents.', use_column_width=True)
 
 if option1 == 'Developer Profile' and option2 == 'Learning to code':
     st.title("Learning to Code")
@@ -97,7 +97,7 @@ if option1 == 'Developer Profile' and option2 == 'Learning to code':
     st.write("Respondents 18 and under are those most frequently selecting online resources (e.g., videos, blogs, forums) to learn from.")
     st.write("Respondents 25 - 34 were the top age cohort to have learned from online courses or certifications (52%) but still learn more from traditional school (55%).")
 
-    st.image('Learning_how_to_code.png', caption = "Learning how to code", use_column_width=True)
+    st.image('Visualization/Learning_how_to_code.png', caption = "Learning how to code", use_column_width=True)
 
     # Title of the web app
     st.markdown("**Top Online Resources for Learning How to Code**")
@@ -131,7 +131,7 @@ if option1 == 'Developer Profile' and option2 == 'Learning to code':
     # Display the list of popular course platforms
     st.write("Udemy maintains its place as the most popular online course or certification program for learning how to code.")
     st.write("**Here are the most popular online course platforms for learning how to code:**")
-    st.image('Popularity_of_Online_Course_Platforms_for_Learning_to_Code.png', caption='Popularity of Online Course Platforms for Learning to Code', use_column_width=True)
+    st.image('Visualization/Popularity_of_Online_Course_Platforms_for_Learning_to_Code.png', caption='Popularity of Online Course Platforms for Learning to Code', use_column_width=True)
 
     # Conclusion
     st.write("Explore these popular course platforms to enhance your coding skills!")
@@ -148,7 +148,7 @@ if option1 == 'Developer Profile' and option2 == 'Experience':
     st.write("48% of respondents have been coding for less than ten years.")
     st.write("Australia and the United Kingdom respondents are the most experienced, with an average of 17.5 and 17 years of experience coding respectively.")
 
-    st.image('Years_Coding_Average_by_top_10_Countries.png',caption='Years of Coding Average_by top 10 Countries', use_column_width=True)
+    st.image('Visualization/Years_Coding_Average_by_top_10_Countries.png',caption='Years of Coding Average_by top 10 Countries', use_column_width=True)
 
     st.markdown("**Years Coding Professionally**")
 
@@ -156,14 +156,14 @@ if option1 == 'Developer Profile' and option2 == 'Experience':
     st.write("A majority of respondents (71%) have been working for 14 or fewer years as professional developers, and 24% have worked 15 to 29 years.")
     st.write("This shows developers in the survey have started to skew more experienced compared to last year where 75% worked 14 or fewer years and 20% 15-29 years.")
 
-    st.image('Years_coding_professionally.png', caption='Years coding professionally')
+    st.image('Visualization/Years_coding_professionally.png', caption='Years coding professionally')
 
 
     st.markdown("**Years of Professional Coding Experience by Developer Type**")
 
     st.write("Senior executives have the highest average years of professional coding experience (17.4), followed by desktop or enterprise applications developers (16.4) and educators (15.8).")
 
-    st.image('Years_of_professional_coding_experience_by_developer_type.png', caption="Years of professional coding experience by developer type", use_column_width=True)
+    st.image('Visualization/Years_of_professional_coding_experience_by_developer_type.png', caption="Years of professional coding experience by developer type", use_column_width=True)
 
 
 
@@ -178,7 +178,7 @@ if option1 == 'Developer Profile' and option2 == 'Key territories':
     st.write("The top ten countries account for 60% of all respondents. Germany overtook India to move into second place this year, a reverse of 2022's placement.")
     st.write("Australia broke into the top ten, coming in at ninth and displacing Spain this year.")
 
-    st.image('top_10_countries.png',caption='top 10 countries', use_column_width=True)
+    st.image('Visualization/top_10_countries.png',caption='top 10 countries', use_column_width=True)
 
     st.components.v1.html(open("developers_across_the_world.html", "r").read(), width=800, height=600)
 
@@ -189,11 +189,11 @@ if option1 == 'Developer Profile' and option2 == 'Demographics':
 
     st.markdown("**Age**")
 
-    st.image('age_all_respondents.png', caption="Age of all respondents", use_column_width=True)
+    st.image('Visualization/age_all_respondents.png', caption="Age of all respondents", use_column_width=True)
     st.write("43% of Professional Developers are 25-34 years old.")
-    st.image('Age_distribution_of_Professional_Developer.png', caption='Age distribution of Professional Developer', use_column_width=True)
+    st.image('Visualization/Age_distribution_of_Professional_Developer.png', caption='Age distribution of Professional Developer', use_column_width=True)
     st.write("But we see that more than half of the respondents learning to code are 18-24 years old.")
-    st.image('Learning_code_age.png', caption='Age of Respondents who are Learning to Code', use_column_width=True)
+    st.image('Visualization/Learning_code_age.png', caption='Age of Respondents who are Learning to Code', use_column_width=True)
     
     
 
@@ -206,19 +206,19 @@ if option1 == 'Technology' and option2 == 'Most popular technologies':
 
     st.write("In 2023, JavaScript continues its streak as the most commonly-used programming language for the eleventh consecutive year.")
     st.write("- Python has overtaken SQL as the third most commonly-used language.")
-    st.image("Programming_Scripting_and_Markup_Languages.png", caption="Popular Programming, Scripting, and Markup Languages", use_column_width=True)
+    st.image("Visualization/Programming_Scripting_and_Markup_Languages.png", caption="Popular Programming, Scripting, and Markup Languages", use_column_width=True)
 
     st.write('- Professional developers top three technologies are the same as last year—JavaScript, HTML/CSS, and SQL.')
-    st.image("Programming_scripting_and_markup_languages_Professional.png", caption="Popular Programming, scripting, and markup languages by Professional Developers")
+    st.image("Visualization/Programming_scripting_and_markup_languages_Professional.png", caption="Popular Programming, scripting, and markup languages by Professional Developers")
 
 
     st.markdown("**Databases**")
 
     st.write("This year, PostgreSQL took over the first place spot from MySQL. Professional Developers are more likely than those learning to code to use PostgreSQL (50%) and those learning are more likely to use MySQL (54%). ")
     st.write("MongoDB is used by a similar percentage of both Professional Developers and those learning to code and it’s the second most popular database for those learning to code (behind MySQL).")
-    st.image('Databases_all_respondents.png',caption="Popular Databases - All Respondents", use_column_width=True)
-    st.image('Database_Professional_Developer.png', caption="Popular Databases - Professional Developer", use_column_width=True)
-    st.image('Databases_Learning_to_Code.png', caption="Popular Databases - Learning to Code", use_column_width=True)
+    st.image('Visualization/Databases_all_respondents.png',caption="Popular Databases - All Respondents", use_column_width=True)
+    st.image('Visualization/Database_Professional_Developer.png', caption="Popular Databases - Professional Developer", use_column_width=True)
+    st.image('Visualization/Databases_Learning_to_Code.png', caption="Popular Databases - Learning to Code", use_column_width=True)
 
 
 
@@ -230,11 +230,11 @@ if option1 == 'Technology' and option2 == 'Most popular technologies':
 
     st.markdown("You can see the inroads that Azure has with organizations—twice as many Professional Developers are using Azure compared to people who are learning to code (30% vs. 15%).")
 
-    st.image('Cloud_platform_all_respondents.png', caption="Popular Cloud Platform - All Respondents", use_column_width=True)
+    st.image('Visualization/Cloud_platform_all_respondents.png', caption="Popular Cloud Platform - All Respondents", use_column_width=True)
 
-    st.image('Cloud_platform_Professional_developers.png', caption="Popular Cloud Platform - Professional Developers", use_column_width=True)
+    st.image('Visualization/Cloud_platform_Professional_developers.png', caption="Popular Cloud Platform - Professional Developers", use_column_width=True)
 
-    st.image('Cloud_platform_learning_code.png', caption="Popular Cloud Platform - Learning to Code", use_column_width=True)
+    st.image('Visualization/Cloud_platform_learning_code.png', caption="Popular Cloud Platform - Learning to Code", use_column_width=True)
 
 
 
@@ -249,11 +249,11 @@ if option1 == 'Technology' and option2 == 'Most popular technologies':
 
     st.markdown("Next.js moved from 11th place in 2022 to 6th this year, likely driven by its popularity with those learning to code.")
     
-    st.image('Popular_web_framework_all_respondents.png', caption="Popular Web Framework - All Respondents", use_column_width=True)
+    st.image('Visualization/Popular_web_framework_all_respondents.png', caption="Popular Web Framework - All Respondents", use_column_width=True)
 
-    st.image('Popular_web_framework_professional_developers.png', caption="Popular Web Framework - Professional Developers", use_column_width=True)
+    st.image('Visualization/Popular_web_framework_professional_developers.png', caption="Popular Web Framework - Professional Developers", use_column_width=True)
 
-    st.image('Popular_web_framework_learning_to_code.png', caption="Popular Web Framework - Learning to Code", use_column_width=True)
+    st.image('Visualization/Popular_web_framework_learning_to_code.png', caption="Popular Web Framework - Learning to Code", use_column_width=True)
     
     st.markdown("**Other Frameworks and Libraries**")
 
@@ -262,11 +262,11 @@ if option1 == 'Technology' and option2 == 'Most popular technologies':
     st.write("Python-compatible libraries continue the trend of scoring higher in this category amongst those learning to code, like last year.")
     st.write("Interspersed amongst old favorites and new options, we see Opencv and OpenGL rise up into the top 10 list (13% and 11% respectively).")
 
-    st.image('Popular_other_technologies_all_respondents.png', caption="Popular Other Web framework and librares - All Respondents", use_column_width=True)
+    st.image('Visualization/Popular_other_technologies_all_respondents.png', caption="Popular Other Web framework and librares - All Respondents", use_column_width=True)
 
-    st.image('Popular_other_technologies_professional_developers.png', caption="Popular Other Web framework and librares - Professional Developers", use_column_width=True)
+    st.image('Visualization/Popular_other_technologies_professional_developers.png', caption="Popular Other Web framework and librares - Professional Developers", use_column_width=True)
 
-    st.image('Popular_other_technologies_learning_to_code.png', caption="Popular Other Web framework and librares - Learning to Code", use_column_width=True)
+    st.image('Visualization/Popular_other_technologies_learning_to_code.png', caption="Popular Other Web framework and librares - Learning to Code", use_column_width=True)
 
 
     st.markdown('**Other tools**')
@@ -276,21 +276,21 @@ if option1 == 'Technology' and option2 == 'Most popular technologies':
     st.markdown("People learning to code are more likely to be using npm or Pip than Docker (50% and 37% respectively vs. 26%).")
     st.markdown("Both are used alongside languages that are popular with students (JavaScript and Python respectively).")
 
-    st.image('Popular_other_tools_all_respondents.png', caption="Popular Other tools - All Respondents", use_column_width=True)
+    st.image('Visualization/Popular_other_tools_all_respondents.png', caption="Popular Other tools - All Respondents", use_column_width=True)
 
-    st.image('Popular_other_tools_professional_developers.png', caption="Popular Other tools - Professional Developers", use_column_width=True)
+    st.image('Visualization/Popular_other_tools_professional_developers.png', caption="Popular Other tools - Professional Developers", use_column_width=True)
 
-    st.image('Popular_other_tools_learning_to_code.png', caption="Popular Other tools - Learning to Code", use_column_width=True)
+    st.image('Visualization/Popular_other_tools_learning_to_code.png', caption="Popular Other tools - Learning to Code", use_column_width=True)
 
     st.markdown('**Integrated development environment**')
 
     st.markdown("Visual Studio Code remains the preferred IDE across all developers, increasing its use among those learning to code compared to professional developers (78% vs. 74%).")
 
-    st.image('popular_ide_all_respondents.png', caption="Popular IDE - All Respondents", use_column_width=True)
+    st.image('Visualization/popular_ide_all_respondents.png', caption="Popular IDE - All Respondents", use_column_width=True)
 
-    st.image('popular_ide_professional_developers.png', caption="Popular IDE - Professional Developers", use_column_width=True)
+    st.image('Visualization/popular_ide_professional_developers.png', caption="Popular IDE - Professional Developers", use_column_width=True)
 
-    st.image('popular_ide_learning_to_code.png', caption="Popular IDE - Learning to Code", use_column_width=True)
+    st.image('Visualization/popular_ide_learning_to_code.png', caption="Popular IDE - Learning to Code", use_column_width=True)
     
 
     st.markdown("**Asynchronous Tools**")
@@ -298,33 +298,33 @@ if option1 == 'Technology' and option2 == 'Most popular technologies':
     st.write("Jira and Confluence are the top two asynchronous tools amongst all developers, similar to last year.")
     st.write("But this year, a new addition to the list broke into the top three: 27% of respondents use markdown files as an asynchronous tool, followed by Trello and Notion.")
 
-    st.image('Popular_asynchronous_tool_all_respodents.png', caption="Popular Asynchronous tools - All Respondents", use_column_width=True)
+    st.image('Visualization/Popular_asynchronous_tool_all_respodents.png', caption="Popular Asynchronous tools - All Respondents", use_column_width=True)
 
-    st.image('Popular_asynchronous_tool_professional_developers.png', caption="Popular Asynchronous tools - Professional Developers", use_column_width=True)
+    st.image('Visualization/Popular_asynchronous_tool_professional_developers.png', caption="Popular Asynchronous tools - Professional Developers", use_column_width=True)
 
-    st.image('Popular_asynchronous_tool_learning_to_code.png', caption="Popular Asynchronous tools - Learning to Code", use_column_width=True)
+    st.image('Visualization/Popular_asynchronous_tool_learning_to_code.png', caption="Popular Asynchronous tools - Learning to Code", use_column_width=True)
 
     st.markdown("**Synchronous Tools**")
 
     st.write("The three most popular synchronous tools are universal for all respondents: Microsoft Teams, Slack, and Zoom.")
     st.write("Zoom was top of the list last year but is third place this year with about 10 percentage points fewer people having worked with it in the past year.")
 
-    st.image('Popular_synchronous_tool_all_respodents.png', caption="Popular Synchronous tools - All Respondents", use_column_width=True)
+    st.image('Visualization/Popular_synchronous_tool_all_respodents.png', caption="Popular Synchronous tools - All Respondents", use_column_width=True)
 
-    st.image('Popular_asynchronous_tool_professional_developers.png', caption="Popular Synchronous tools - Professional Developers", use_column_width=True)
+    st.image('Visualization/Popular_asynchronous_tool_professional_developers.png', caption="Popular Synchronous tools - Professional Developers", use_column_width=True)
 
-    st.image('Popular_synchronous_tool_professional_developers.png', caption="Popular Synchronous tools - Learning to Code", use_column_width=True)
+    st.image('Visualization/Popular_synchronous_tool_professional_developers.png', caption="Popular Synchronous tools - Learning to Code", use_column_width=True)
 
 
     st.markdown("**AI Search Tools**")
     st.markdown("This is a new section this year, and respondents' top choice for AI search tools is ChatGPT: 83% of respondents have used it in the past year. This is above and beyond the second choice of Bing AI with 20% having used it.")
     st.markdown("The hype around emerging AI search technology has room to grow while the ChatGPT competitors grow their user base; only four tools had 10% or higher selection for those that want to try it in the next year.")
     
-    st.image('Popular_ai_search_tool_all_respondents.png', caption="Popular AI Search tools - All Respondents", use_column_width=True)
+    st.image('Visualization/Popular_ai_search_tool_all_respondents.png', caption="Popular AI Search tools - All Respondents", use_column_width=True)
 
-    st.image('Popular_ai_search_tool_professional_developers.png', caption="Popular AI Search tools - Professional Developers", use_column_width=True)
+    st.image('Visualization/Popular_ai_search_tool_professional_developers.png', caption="Popular AI Search tools - Professional Developers", use_column_width=True)
 
-    st.image('Popular_ai_search_tool_all_learning_to_code.png', caption="Popular AI Search tools - Learning to Code", use_column_width=True)
+    st.image('Visualization/Popular_ai_search_tool_all_learning_to_code.png', caption="Popular AI Search tools - Learning to Code", use_column_width=True)
 
     st.markdown("**AI Developer Tools**")
     # Introduction
@@ -337,11 +337,11 @@ if option1 == 'Technology' and option2 == 'Most popular technologies':
     
     st.write("Interestingly, those who are still in the learning phase tend to favor Tabnine slightly more, with 18% of them using it. In contrast, Copilot's usage among learners is slightly lower at 45%. This variance might be attributed to the associated costs of Copilot.")
 
-    st.image('Popular_ai_developer_tool_all_respondents.png', caption="Popular AI Developer tools - All Respondents", use_column_width=True)
+    st.image('Visualization/Popular_ai_developer_tool_all_respondents.png', caption="Popular AI Developer tools - All Respondents", use_column_width=True)
 
-    st.image('Popular_ai_developer_tool_professional_developers.png', caption="Popular AI Developer tools - Professional Developers", use_column_width=True)
+    st.image('Visualization/Popular_ai_developer_tool_professional_developers.png', caption="Popular AI Developer tools - Professional Developers", use_column_width=True)
 
-    st.image('Popular_ai_search_tool_all_learning_to_code.png', caption="Popular AI Developer tools - Learning to Code", use_column_width=True)
+    st.image('Visualization/Popular_ai_search_tool_all_learning_to_code.png', caption="Popular AI Developer tools - Learning to Code", use_column_width=True)
 
 
 if option1 == 'Technology' and option2 == 'Worked with vs. want to work with':
@@ -380,17 +380,17 @@ if option1 == 'AI' and option2 == 'Sentiment and usage':
     st.write("Stack Overflow asked a number of questions this year about perceptions of AI, how AI tools may or may not impact developer workflows, and more.")
     st.write("I performed analysis on the data given by Stack Overflow to gain insight into the real sentiments behind this year’s surge in AI popularity. Is it making a real impact in the way developers work or is it all hype?")
 
-    st.image('AI_tools_in_the_development_process_all_Respondents.png', caption="Current Use of AI tool in your development process - All Respondents", use_column_width=True)
+    st.image('Visualization/AI_tools_in_the_development_process_all_Respondents.png', caption="Current Use of AI tool in your development process - All Respondents", use_column_width=True)
 
-    st.image('AI_tools_in_the_development_process_professional_developers.png', caption="Current Use of AI tool in your development process - Professional Developers", use_column_width=True)
+    st.image('Visualization/AI_tools_in_the_development_process_professional_developers.png', caption="Current Use of AI tool in your development process - Professional Developers", use_column_width=True)
 
-    st.image('AI_tools_in_the_development_process_learning_to_code.png', caption="Current Use of AI tool in your development process - Learning to Code", use_column_width=True)
+    st.image('Visualization/AI_tools_in_the_development_process_learning_to_code.png', caption="Current Use of AI tool in your development process - Learning to Code", use_column_width=True)
 
 
     st.markdown("**AI tool sentiment**")
     st.write("70% of all respondents are using or are planning to use AI tools in their development process this year. Those learning to code are more likely than professional developers to be using or use AI tools (82% vs. 70%).")
 
-    st.image('AI_tool_sentimen_all_respondents.png', caption="AI Tool Sentiment", use_column_width=True)
+    st.image('Visualization/AI_tool_sentimen_all_respondents.png', caption="AI Tool Sentiment", use_column_width=True)
 
     
 if option1 == 'AI' and option2 == 'Developer tools':
@@ -400,18 +400,18 @@ if option1 == 'AI' and option2 == 'Developer tools':
 
     st.write("Increasing productivity is the biggest benefit that developers see from AI tools. Speeding up learning and greater efficiency are tied for secondary benefits.")
 
-    st.image('Benefits_of_AI_Tools.png', caption="Benefits of AI Tools - All Respondents", use_column_width=True)
+    st.image('Visualization/Benefits_of_AI_Tools.png', caption="Benefits of AI Tools - All Respondents", use_column_width=True)
     
     st.markdown("**Accuracy of AI tools**")
     st.write("We see developers split on their trust in the accuracy of the AI output from tools. About 42% trust the accuracy of the output, while 31% are on the fence.")
 
-    st.image('Accuracy_of_ai_tools.png', caption="Accurace of AI Tools - All Respodents", use_column_width=True)
+    st.image('Visualization/Accuracy_of_ai_tools.png', caption="Accurace of AI Tools - All Respodents", use_column_width=True)
 
 
     st.markdown("**AI in the development workflow**")
     st.write("Those currently using AI tools mostly report benefits for writing code, while those not interested in using AI tools find this the least beneficial. This disconnect most likely is with the fundamental difference of type of developers not interested in using these tools with those that are interested and have more applicable use cases for the current functionality available.")
 
-    st.image('Ai_in_developement_workflow.png', caption="Use of AI in the developement Workflow - All Respodents", use_column_width=True)
+    st.image('Visualization/Ai_in_developement_workflow.png', caption="Use of AI in the developement Workflow - All Respodents", use_column_width=True)
 
 
     st.markdown("**AI tools next year**")
