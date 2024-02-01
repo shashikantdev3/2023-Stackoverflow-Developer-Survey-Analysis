@@ -400,21 +400,18 @@ if option1 == 'AI' and option2 == 'Developer tools':
 
     st.write("Increasing productivity is the biggest benefit that developers see from AI tools. Speeding up learning and greater efficiency are tied for secondary benefits.")
 
-    st.write("Benefits of AI Tools - All Respondents")
-    st.image('Benefits_of_AI_Tools.png', caption="Databases Have Worked With - Learning to Code", use_column_width=True)
+    st.image('Benefits_of_AI_Tools.png', caption="Benefits of AI Tools - All Respondents", use_column_width=True)
     
     st.markdown("**Accuracy of AI tools**")
     st.write("We see developers split on their trust in the accuracy of the AI output from tools. About 42% trust the accuracy of the output, while 31% are on the fence.")
 
-    st.write("Accurace of AI Tools - All Respodents")
-    st.image('Accuracy_of_ai_tools.png', caption="Databases Have Worked With - Learning to Code", use_column_width=True)
+    st.image('Accuracy_of_ai_tools.png', caption="Accurace of AI Tools - All Respodents", use_column_width=True)
 
 
     st.markdown("**AI in the development workflow**")
     st.write("Those currently using AI tools mostly report benefits for writing code, while those not interested in using AI tools find this the least beneficial. This disconnect most likely is with the fundamental difference of type of developers not interested in using these tools with those that are interested and have more applicable use cases for the current functionality available.")
 
-    st.write("Use of AI in the developement Workflow - All Respodents")
-    st.image('Ai_in_developement_workflow.png', caption="Databases Have Worked With - Learning to Code", use_column_width=True)
+    st.image('Ai_in_developement_workflow.png', caption="Use of AI in the developement Workflow - All Respodents", use_column_width=True)
 
 
     st.markdown("**AI tools next year**")
