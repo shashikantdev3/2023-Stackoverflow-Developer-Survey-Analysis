@@ -1,9 +1,5 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-import plotly.offline as pyo
-import plotly.graph_objects as go
 import warnings
 
 
@@ -30,8 +26,6 @@ elif option1 == 'Technology':
 elif option1 == 'AI':
     # Second-level dropdown for AI
     option2 = st.sidebar.selectbox('Select Subcategory:', ('Sentiment and usage', 'Developer tools'))
-
-import streamlit as st
 
 if option1 == 'Overview':
     st.title("2023 Developer Survey Analysis")
