@@ -180,7 +180,7 @@ if option1 == 'Developer Profile' and option2 == 'Key territories':
 
     st.image('Visualization/top_10_countries.png',caption='top 10 countries', use_column_width=True)
 
-    st.components.v1.html(open("developers_across_the_world.html", "r").read(), width=800, height=600)
+    st.components.v1.html(open("Visualization/developers_across_the_world.html", "r").read(), width=800, height=600)
 
 if option1 == 'Developer Profile' and option2 == 'Demographics':
     st.title("Demographics")
@@ -419,7 +419,7 @@ if option1 == 'AI' and option2 == 'Developer tools':
     st.write("Use of AI Tool Next Year - All Respodents")
     
     # Define the path to your HTML file
-    html_file_path = "./ai_tool_next_yeay_stacked.html"
+    html_file_path = "Visualization/ai_tool_next_yeay_stacked.html"
 
     # Embed the HTML content
     st.components.v1.html(open(html_file_path, "r").read(), width=1000, height=800)
